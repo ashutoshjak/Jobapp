@@ -37,12 +37,12 @@ class _ElectricianState extends State<Electrician> {
                       ),
 
                       new RaisedButton(
-                        color: Colors.black,
+                        color: Colors.blueGrey,
                         onPressed: (){},
                         child: new Text('Cancel',style: TextStyle(color: Colors.white),),
                       ),
                       new RaisedButton(
-                        color: Colors.black,
+                        color: Colors.blueGrey,
                         onPressed: (){},
                         child: new Text('Submit',style: TextStyle(color: Colors.white),),
                       ),
@@ -50,7 +50,6 @@ class _ElectricianState extends State<Electrician> {
                   ),
                 ),
               )
-
             ],
           ),
         ),
